@@ -13,7 +13,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 $ErrorActionPreference = 'silentlycontinue'
 
-$DebloatFolder = "C:\Temp\Windows10Debloater"
+$DebloatFolder = "C:\Temp\jwstwten"
 If (Test-Path $DebloatFolder) {
     Write-Output "$DebloatFolder exists. Skipping."
 }
